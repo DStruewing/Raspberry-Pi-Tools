@@ -1,0 +1,19 @@
+Scan for networks.
+
+	sudo iwlist wlan0 scan
+
+Add network details to wpa_supplicant.conf.
+
+	sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+Format:
+
+	network{
+		ssid="Network_Name"
+		psk="password"
+	}
+
+Restart wifi.
+
+	sudo ifdown wlan0
+	sudo ifup wlan0

@@ -1,0 +1,7 @@
+We need to edit /etc/rc.local as root.
+
+	sudo nano /etc/rc.local
+
+At the bottom, just above exit 0, we'll add a call to our script.
+
+	python /home/pi/run.py

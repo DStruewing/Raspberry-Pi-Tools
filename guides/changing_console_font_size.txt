@@ -1,0 +1,6 @@
+Run dpkg-reconfigure.
+	
+	sudo dpkg-reconfigure console-setup
+
+Navigate to "UTF-8", then "Guess optimal character set", then "Terminus".
+Choose font size. 16x32 is twice the default size.
